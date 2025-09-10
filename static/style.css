@@ -1,0 +1,165 @@
+/* ----------------------
+   Global Styles
+----------------------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 25%, #a1c4fd 50%, #c2e9fb 75%, #d4fc79 100%);
+  min-height: 100vh;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------
+   Navbar Styling
+----------------------- */
+.custom-navbar {
+  background-color: #D4F1F4 !important;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 12px 20px;
+  border-bottom: 2px solid #a2d2ff;
+}
+
+.navbar-brand {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #023e8a !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .nav-link {
+  color: #0a3d62 !important;
+  font-size: 1rem;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #0077b6 !important;
+}
+
+/* Search Bar */
+form[role="search"] .form-control {
+  border-radius: 25px;
+  padding: 10px 15px;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  border: 1px solid #90e0ef;
+}
+
+form[role="search"] .form-control:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+  border-color: #0077b6;
+}
+
+form[role="search"] .btn {
+  border-radius: 25px;
+  padding: 8px 18px;
+  background-color: #0077b6;
+  border: none;
+  transition: all 0.3s ease;
+  color: white;
+  font-weight: bold;
+}
+
+form[role="search"] .btn:hover {
+  background-color: #023e8a;
+}
+
+/* ----------------------
+   Fancy Font Styling
+----------------------- */
+.fancy-font {
+  font-family: 'Rancho', cursive;
+  font-size: 2.4rem;
+  color: #03045e;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* ----------------------
+   Add Todo Form Styling
+----------------------- */
+form.shadow {
+  border-radius: 12px;
+  background-color: #ffffffcc;
+  padding: 25px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+form.shadow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+form.shadow button {
+  background: linear-gradient(45deg, #0077b6, #0096c7);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+form.shadow button:hover {
+  background: linear-gradient(45deg, #023e8a, #0077b6);
+}
+
+/* ----------------------
+   Todo Table Styling
+----------------------- */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.table thead {
+  background-color: #0077b6;
+  color: white;
+  font-size: 1rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #caf0f8;
+  transition: 0.2s;
+}
+
+/* Buttons in Table */
+.btn-outline-primary {
+  border-color: #0077b6;
+  color: #0077b6;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0077b6;
+  color: white;
+}
+
+.btn-outline-danger {
+  border-color: #ef233c;
+  color: #ef233c;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ef233c;
+  color: white;
+}
+
+/* ----------------------
+   No Records Alert
+----------------------- */
+.alert-warning {
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #fff3cd;
+  color: #856404;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
