@@ -1,6 +1,5 @@
 Flask Todo Application 📝
 A simple, clean, and responsive todo list application built with Flask and SQLAlchemy. This project demonstrates full-stack web development with Python, featuring CRUD operations, database integration, and modern web design.
-<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/327158d5-f7c2-4a21-a3be-7fb9e97013f8" />
 ✨ Features
 
 Add Tasks: Create new todo items with ease
@@ -25,6 +24,9 @@ Before running this project, make sure you have:
 Python 3.7 or higher
 pip (Python package installer)
 Git
+ScreenShoot:
+
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/327158d5-f7c2-4a21-a3be-7fb9e97013f8" />
 
 
 website link:- https://flask-todo-xl0t.onrender.com/
